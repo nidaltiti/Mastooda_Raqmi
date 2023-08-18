@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.digital-repository" version="1.0.3" name="مستودع رقمي" provider-name="NT-Works">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="nidal">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nidaltiti/arabic-mubaher/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nidaltiti/arabic-mubaher/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/nidaltiti/arabic-mubaher/raw/master/repo/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/nidaltiti/kalim/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nidaltiti/kalim/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/nidaltiti/kalim/raw/main/repo</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">مستودع رقمي شرق الاوسط repository digital </summary>
+		<description lang="en">مستودع رقمي": إضافة مبتكرة تثري تجربة برنامج كودي بتوفير محتوى متنوع وشخصي للمستخدمين.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.jpg</icon>
+			<fanart>fanart.png</fanart>
+		</assets>
+	</extension>
+</addon>
