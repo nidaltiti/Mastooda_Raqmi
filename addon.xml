@@ -14,6 +14,12 @@
 			<checksum>https://raw.githubusercontent.com/nidaltiti/kalim/main/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/nidaltiti/kalim/raw/main/repo</datadir>
 		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/zombiB/zombi-addons/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/zombiB/zombi-addons/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/zombiB/zombi-addons/raw/master/repo</datadir>
+		</dir>
+
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">مستودع رقمي شرق الاوسط repository digital </summary>
