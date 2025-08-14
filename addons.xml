@@ -26,7 +26,11 @@
     <checksum>https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons.xml.md5</checksum>
     <datadir zip="true">https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons/zips</datadir>  
 </dir>
-
+<dir>
+    <info compressed="false">https://raw.githubusercontent.com/nidaltiti/Mastooda_Raqmi/main/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/nidaltiti/Mastooda_Raqmi/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/nidaltiti/Mastooda_Raqmi/raw/main/zips</datadir>  
+</dir>
 		
 	</extension>
 	<extension point="xbmc.addon.metadata">
