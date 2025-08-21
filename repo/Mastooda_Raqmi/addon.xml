@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.digital-repository" version="0.0.3" name="مستودع رقمي" provider-name="NT-Works">
+<addon id="repository.digital-repository" version="0.0.4" name="مستودع رقمي" provider-name="NT-Works">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -14,11 +14,11 @@
 			<checksum>https://raw.githubusercontent.com/nidaltiti/kalim/main/addons.xml.md5</checksum>
 			<datadir zip="true">https://github.com/nidaltiti/kalim/raw/main/repo</datadir>
 		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/nidaltiti/zombi-addons/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nidaltiti/zombi-addons/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/nidaltiti/zombi-addons/raw/master/repo</datadir>
-		</dir>
+			<dir>
+        <info compressed="false">https://raw.githubusercontent.com/nidaltiti/zipx/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nidaltiti/zipx/master/addons.xml.md5</checksum> <!--matrix addons -->
+        <datadir zip="true">https://github.com/nidaltiti/zipx/raw/master/zips</datadir>
+    </dir>
 		<dir>
     <info compressed="false">https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons.xml</info>
     <checksum>https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons.xml.md5</checksum>
